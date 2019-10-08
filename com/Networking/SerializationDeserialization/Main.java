@@ -1,6 +1,12 @@
-/*
-  Reading the csv file and returning the fileContent
-*/
+package com.Networking.SerializationDeserialization;
+
+
+import java.io.*;
+import java.net.DatagramPacket;
+import java.net.DatagramSocket;
+import java.net.InetAddress;
+import java.net.SocketException;
+
 class FileRead implements Serializable {
     private StringBuffer fileContent = new StringBuffer("");
 
